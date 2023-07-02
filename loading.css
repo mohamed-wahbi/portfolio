@@ -13,7 +13,7 @@
 .content {
     width: 200px;
     height: 200px;
-    background-color: #6ee438;
+    background-color: #43bd92;
     border-color: white white black white;
     border-style: solid;
     border-width: 5px;
@@ -24,19 +24,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(87, 85, 85);
+    color: rgb(16, 29, 23);
     font-size: 18px;
     box-shadow: 1px 1px 30px black;
+    font-family: cursive;
 }
 
 @keyframes makimaki {
-    0%{border-color: white white #bd4358 white;width: 200px;height: 200px;font-size: 18px;color: rgb(87, 85, 85);}
+    0%{border-color: white white #375c67 white;width: 200px;height: 200px;font-size: 18px;color: rgb(112, 134, 98);}
 
-    25%{border-color: white white white #bd4358 ;width: 230px;height: 230px;font-size: 20px;color: rgb(232, 176, 46);}
+    25%{border-color: white white white #375c67 ;width: 230px;height: 230px;font-size: 20px;color: rgb(61, 154, 104);}
 
-    50%{border-color: #bd4358  white white white ;width: 260px;height: 260px;font-size: 22px;color: rgb(235, 68, 68)}
+    50%{border-color: #375c67  white white white ;width: 260px;height: 260px;font-size:22px ;font-weight: bolder ;color: rgb(60, 121, 30)}
 
-    75%{border-color: white #bd4358 white white ;width: 230px;height: 230px;font-size: 20px;color: rgb(232, 176, 46);}
+    75%{border-color: white #375c67 white white ;width: 230px;height: 230px;font-size: 20px;color: rgb(61, 154, 104);}
 
-    100%{border-color: white white #bd4358 white ;width: 200px;height: 200px;font-size: 18px;color: rgb(87, 85, 85);}
+    100%{border-color: white white #375c67 white ;width: 200px;height: 200px;font-size: 18px;color: rgb(112, 134, 98);}
 }
