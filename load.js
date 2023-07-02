@@ -1,3 +1,3 @@
 setTimeout(() => {
-    location.replace("www.facebook.com");
+    location.replace("index.html");
 }, 3000);
