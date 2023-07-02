@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Rajdhani&family=Shadows+Into+Light&family=Source+Serif+Pro:wght@600&family=Tapestry&display=swap');
 
 :root {
-    --text-color: #64fc20;
+    --text-color: #91d496;
     --text-color2:rgb(147 157 160);
     --text-color3:#bd4358;
     --text-color4:#c3ac30;
@@ -136,7 +136,7 @@ section-content
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-image: url(imageri/cc.png);
+    background-image: url(imageri/backi2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -334,9 +334,7 @@ section-content
 }
 
 .sub-contact {
-    width: 215px;
-    min-width: 245px;
-
+    min-width: 330px;
 }
 
 .sub-contact h3 {
@@ -373,6 +371,13 @@ section-content
     color: var(--text-color4);
 }
 
+.sub-contact ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    
+}
 .interes-content {
     margin: 0;
     display: grid;
@@ -497,6 +502,7 @@ skils
     font-weight: 300;
     padding-bottom: 10px;
     margin-top: 15px;
+    
 }
 
 .skill-progress {
@@ -505,7 +511,10 @@ skils
     background: black;
     position: relative;
     margin-bottom: 30px;
+    color: white;
 }
+
+
 
 .progress {
     position: relative;
@@ -528,6 +537,7 @@ skils
     text-align: center;
     line-height: 28px;
     border: 1px solid white;
+    color: white;
 }
 
 /* -----------skill glis animation---------- */
@@ -543,7 +553,7 @@ skils
 }
 
 @keyframes bolhtml {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes html {
@@ -562,7 +572,7 @@ skils
 }
 
 @keyframes bolcss {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes css {
@@ -581,7 +591,7 @@ skils
 }
 
 @keyframes bolbootestrap {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes bootestrap {
@@ -600,7 +610,7 @@ skils
 }
 
 @keyframes bolpython {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes python {
@@ -619,7 +629,7 @@ skils
 }
 
 @keyframes bolphp {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes php {
@@ -638,7 +648,7 @@ skils
 }
 
 @keyframes bolsql {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes sql {
@@ -654,11 +664,13 @@ skils
 }
 .bolcommunication {
         animation: bolcommunication 1s forwards;
+        
+
 
 }
 
 @keyframes bolcommunication{
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes communication {
@@ -677,7 +689,7 @@ skils
 }
 
 @keyframes bolgroups {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes groups {
@@ -696,7 +708,7 @@ skils
 }
 
 @keyframes bolintelligence {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes intelligence {
@@ -715,7 +727,7 @@ skils
 }
 
 @keyframes bolCreativity {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes Creativity {
@@ -734,7 +746,7 @@ skils
 }
 
 @keyframes bolperfection {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes perfection {
@@ -753,7 +765,7 @@ skils
 }
 
 @keyframes bolPoint {
-    100%{left: 100%; background-color: #64fc20;color:#312d2d;border-color: #312d2d;}
+    100%{left: 100%; background-color: #64fc20;color:white;border-color: #fff;}
 }
 
 @keyframes Point {
@@ -929,15 +941,16 @@ hr {
     width: 100%;
     min-height: 70vh;
     background: var(--back-color);
+    padding: 0 0 30px 0;
+
 }
 .sertif-content{
     height: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    width: 45%;
     margin: auto;
 }
 
@@ -955,7 +968,9 @@ hr {
     transition: 2s;
     width: 200px;
     height: 235px;
+    margin: 5px;
 }
+
 
 .sertif-content div img {
     height: 60%;
@@ -983,7 +998,7 @@ hr {
 }
 
 .tofback {
-    height: 40vh;
+    height: 60vh;
     width: 100%;
     background-color: #312d2db7;
     background-image: url(imageri/pc.jpg);
@@ -1000,9 +1015,11 @@ hr {
 }
 
 .mesg {
-    height: 79vh;
+    height: 100%;
     width: 100%;
-    background: #635d58d6;
+    background: #272a2f;
+    
+    
     
 }
 
@@ -1013,11 +1030,12 @@ hr {
 }
 
 .msg-content {
-    width: 1100px;
     height: 100%;
-    margin: auto;
-    background: #6b8e4033;
+    background: transparent;
     color: white;
+    padding: 70px 30px;
+    max-width: 1013px;
+    margin: 0 auto;
     
 }
 
@@ -1040,20 +1058,19 @@ hr {
     border: 2px solid white;
     margin-top: 15px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
 .send-form .cordonner{
     height: 100%;
-    width: 48%;
+    width: 70%;
 }
 
 .send-form .project{
     height: 100%;
-    width: 48%;
+    width: 70%;
 }
 
 .cordonner h3 {
@@ -1070,8 +1087,9 @@ hr {
 }
 
 .cordonner form input {
-    width: 80%;
+    width: 100%;
     margin: 2px 0px;
+    padding: 3px;
 }
 
 .input-radio {
@@ -1126,8 +1144,9 @@ hr {
 }
 
 .project form input,textarea {
-    width: 80%;
+    width: 100%;
     margin: 5px 0px;
+    padding: 3px;
 }
 
 .project form textarea {
@@ -1272,6 +1291,8 @@ hr {
     }
     .sertif-content {
         width: 460px;
+        border: 8px solid #843f58;
+        padding: 14px;
     }
     .sertif {
         padding-bottom: 15px;
@@ -1348,6 +1369,7 @@ hr {
     
     .sertif-content {
         width: 100%;
+        border: none;
     }
     .sertif-content {
         font-size: 8px;
@@ -1372,7 +1394,7 @@ hr {
     }
     .servis-contents {
         font-size: 7px;
-        padding: 0 7px;
+        padding: 0 14px;
         margin-top: 25px;
     }
     .nas {
@@ -1391,6 +1413,7 @@ hr {
     .sertif-content div {
         font-size: 11px;
     }
+    
     .header-content {
         width: 100%;
 
@@ -1404,8 +1427,28 @@ hr {
     .send-form {
         padding: 0px 4px;
     }
+
+    .send-form .cordonner {
+        width: 100%;
+    }
+
+    .send-form .project {
+        width: 100%;
+    }
+
+    .send-form .input-radio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
     .input-radio {
         padding: 0px 4px;
+    }
+
+    .sub-title p {
+        text-align: center;
     }
      
 }
