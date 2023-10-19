@@ -1315,7 +1315,7 @@ hr {
     to {border-color:var(--text-color) ;}
 }
 
-/* @media screen and (min-width:1201px) and (max-width: 1700px){
+/*  @media screen and (min-width:1201px) and (max-width: 1700px){
     .sertif-content {
         width: 756px !important;
     }
@@ -1451,7 +1451,7 @@ hr {
     .responsiv-nav-content {
         height: 35vh !important;
         font-size: 10px !important;
-        /* display: none; */
+       
     }
 
     .section-info {
@@ -1564,4 +1564,4 @@ hr {
     }
      
 }
- */
+  */
